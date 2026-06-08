@@ -1,0 +1,875 @@
+[
+  {
+    "Verein": "Manchester City",
+    "MCO": "City Football Group",
+    "Marktwert": "1,31 Mrd. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "53° 28′ 59,3″ N, 2° 12′ 1,2″ W",
+    "badge": "./assets/Logos/ManchesterCity.png"
+  },
+  {
+    "Verein": "New York City FC",
+    "MCO": "City Football Group",
+    "Marktwert": "49,43 Mio. €",
+    "Land": "USA",
+    "Liga": "Major League Soccer",
+    "Koordinaten": "40° 49′ 46,2″ N , 73° 55′ 37″ W",
+    "badge": "./assets/Logos/NewYorkCityFC.png"
+  },
+  {
+    "Verein": "FC Girona",
+    "MCO": "City Football Group",
+    "Marktwert": "153,20 Mio. €",
+    "Land": "Spanien",
+    "Liga": "La Liga",
+    "Koordinaten": "41° 57′ 40″ N , 2° 49′ 41,5″ O",
+    "badge": "./assets/Logos/FCGirona.png"
+  },
+  {
+    "Verein": "Melbourne City FC",
+    "MCO": "City Football Group",
+    "Marktwert": "10,05 Mio. €",
+    "Land": "Australien",
+    "Liga": "A-League",
+    "Koordinaten": "37° 49′ 31″ S , 144° 59′ 2″ O",
+    "badge": "./assets/Logos/MelbourneCityFC.png"
+  },
+  {
+    "Verein": "Lommel SK",
+    "MCO": "City Football Group",
+    "Marktwert": "10,05 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "51° 13' 44.8\"\" N, 5° 24' 56.9\"\" O",
+    "badge": "./assets/Logos/LommelSK.png"
+  },
+  {
+    "Verein": "Shenzhen Peng City",
+    "MCO": "City Football Group",
+    "Marktwert": "9,75 Mio. €",
+    "Land": "China",
+    "Liga": "Chinese Super League",
+    "Koordinaten": "22°33′43.83″N 114°5′13.16″O",
+    "badge": "./assets/Logos/ShenzhenPengCity.png"
+  },
+  {
+    "Verein": "ESTAC Troyes",
+    "MCO": "City Football Group",
+    "Marktwert": "40,78 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 2",
+    "Koordinaten": "48° 18′ 27″ N , 4° 5′ 54″ O",
+    "badge": "./assets/Logos/ESTACTroyes.png"
+  },
+  {
+    "Verein": "EC Bahia",
+    "MCO": "City Football Group",
+    "Marktwert": "114,35 Mio. €",
+    "Land": "Brasilien",
+    "Liga": "Campeonato Brasileiro Série A",
+    "Koordinaten": "12° 58′ 44″ S, 38° 30′ 15″ W",
+    "badge": "./assets/Logos/ECBahia.png"
+  },
+  {
+    "Verein": "Montevideo City Torque",
+    "MCO": "City Football Group",
+    "Marktwert": "8,10 Mio. €",
+    "Land": "Uruguay",
+    "Liga": "Liga AUF Apertura",
+    "Koordinaten": "34° 52′ 42,3″ S , 56° 5′ 21,6″ W",
+    "badge": "./assets/Logos/MontevideoCityTorque.png"
+  },
+  {
+    "Verein": "Palermo FC",
+    "MCO": "City Football Group",
+    "Marktwert": "39,60 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie B",
+    "Koordinaten": "38° 9′ 10″ N , 13° 20′ 32,2″ O",
+    "badge": "./assets/Logos/PalermoFC.png"
+  },
+  {
+    "Verein": "Yokohama F. Marinos",
+    "MCO": "City Football Group",
+    "Marktwert": "14,43 Mio. €",
+    "Land": "Japan",
+    "Liga": "J-League",
+    "Koordinaten": "35° 30′ 36″ N , 139° 36′ 23″ O",
+    "badge": "./assets/Logos/YokohamaF.Marinos.png"
+  },
+  {
+    "Verein": "Bolívar La Paz",
+    "MCO": "City Football Group",
+    "Marktwert": "11,00 Mio. €",
+    "Land": "Bolivien",
+    "Liga": "División Profesional",
+    "Koordinaten": "16° 29′ 58,2″ S, 68° 7′ 21,8″ W",
+    "badge": "./assets/Logos/BolivarLaPaz.png"
+  },
+  {
+    "Verein": "RB Leipzig",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "471,25 Mio. €",
+    "Land": "Deutschland",
+    "Liga": "1. Bundesliga",
+    "Koordinaten": "51° 20′ 44,8″ N , 12° 20′ 53,8″ O",
+    "badge": "./assets/Logos/RBLeipzig.png"
+  },
+  {
+    "Verein": "FC Red Bull Salzburg",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "130,40 Mio. €",
+    "Land": "Österreich",
+    "Liga": "Bundesliga",
+    "Koordinaten": "47° 49′ 0,5″ N , 12° 59′ 57,5″ O",
+    "badge": "./assets/Logos/FCRedBullSalzburg.png"
+  },
+  {
+    "Verein": "Red Bull New York",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "39,28 Mio. €",
+    "Land": "USA",
+    "Liga": "Major League Soccer",
+    "Koordinaten": "40° 44′ 12,7″ N , 74° 9′ 1,3″ W",
+    "badge": "./assets/Logos/RedBullNewYork.png"
+  },
+  {
+    "Verein": "Red Bull Bragantino",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "89,00 Mio. €",
+    "Land": "Brasilien",
+    "Liga": "Campeonato Brasileiro Série A",
+    "Koordinaten": "22° 57′ 55,5″ S , 46° 32′ 13″ W",
+    "badge": "./assets/Logos/RedBullBragantino.png"
+  },
+  {
+    "Verein": "FC Liefering",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "7,85 Mio. €",
+    "Land": "Österreich",
+    "Liga": "2. Liga",
+    "Koordinaten": "51° 20′ 44,8″ N , 12° 20′ 53,8″ O",
+    "badge": "./assets/Logos/FCLiefering.png"
+  },
+  {
+    "Verein": "RB Omiya Ardija",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "9,38 Mio. €",
+    "Land": "Japan",
+    "Liga": "J2-League",
+    "Koordinaten": "35° 54′ 58,4″ N, 139° 38′ 0,5″ O",
+    "badge": "./assets/Logos/RBOmiyaArdija.png"
+  },
+  {
+    "Verein": "Leeds United",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "346,03 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "53° 46′ 40″ N , 1° 34′ 19″ W",
+    "badge": "./assets/Logos/LeedsUnited.png"
+  },
+  {
+    "Verein": "Paris FC",
+    "MCO": "Red Bull Soccer",
+    "Marktwert": "134,35 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "53° 46′ 40″ N , 1° 34′ 19″ W",
+    "badge": "./assets/Logos/ParisFC.png"
+  },
+  {
+    "Verein": "Crystal Palace",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "559,50 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "51° 23′ 53,8″ N , 0° 5′ 7,6″",
+    "badge": "./assets/Logos/CrystalPalace.png"
+  },
+  {
+    "Verein": "FC Augsburg",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "166,95 Mio.€",
+    "Land": "Deutschland",
+    "Liga": "1. Bundesliga",
+    "Koordinaten": "48° 19′ 23,3″ N , 10° 53′ 9,6″ O",
+    "badge": "./assets/Logos/FCAugsburg.png"
+  },
+  {
+    "Verein": "ADO Den Haag",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "10,35 Mio. €",
+    "Land": "Niederlande",
+    "Liga": "Keuken Kampioen Divisie",
+    "Koordinaten": "52° 3′ 46,1″ N, 4° 22′ 59,3″ O",
+    "badge": "./assets/Logos/ADODenHaag.png"
+  },
+  {
+    "Verein": "Bröndby IF ",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "53,98 Mio. €",
+    "Land": "Dänemark",
+    "Liga": "Superliga",
+    "Koordinaten": "55° 38′ 56,3″ N , 12° 25′ 7,1",
+    "badge": "./assets/Logos/BrondbyIF.png"
+  },
+  {
+    "Verein": "GD Estoril Praia",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "54,15 Mio. €",
+    "Land": "Portugal",
+    "Liga": "Liga Portugal",
+    "Koordinaten": "38° 42′ 57,6″ N, 9° 24′ 21,6″ W",
+    "badge": "./assets/Logos/GDEstorilPraia.png"
+  },
+  {
+    "Verein": "AD Alcorcón",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "4,30 Mio. €",
+    "Land": "Spanien",
+    "Liga": "Primera Federación - Grupo II",
+    "Koordinaten": "40° 20′ 19,7″ N , 3° 50′ 25,8",
+    "badge": "./assets/Logos/ADAlcorcon.png"
+  },
+  {
+    "Verein": "SK Beveren",
+    "MCO": "Global Football Holdings",
+    "Marktwert": "10,78 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "51° 12′ 51″ N , 4° 14′ 37,9″ O.",
+    "badge": "./assets/Logos/SKBeveren.png"
+  },
+  {
+    "Verein": "Hertha BSC",
+    "MCO": "A-CAP",
+    "Marktwert": "60,33 Mio. €",
+    "Land": "Deutschland",
+    "Liga": "2. Bundesliga",
+    "Koordinaten": "52° 30′ 52,7″ N , 13° 14′ 22,6″",
+    "badge": "./assets/Logos/HerthaBSC.png"
+  },
+  {
+    "Verein": "FC Sevilla",
+    "MCO": "A-CAP",
+    "Marktwert": "140,40 Mio. €",
+    "Land": "Spanien",
+    "Liga": "La Liga",
+    "Koordinaten": "37° 23′ 2,6″ N , 5° 58′ 14,1″ W ",
+    "badge": "./assets/Logos/FCSevilla.png"
+  },
+  {
+    "Verein": "Genua CFC",
+    "MCO": "A-CAP",
+    "Marktwert": "157,90 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie A",
+    "Koordinaten": "44° 24′ 59,4″ N , 8° 57′ 9,1″ O",
+    "badge": "./assets/Logos/GenuaCFC.png"
+  },
+  {
+    "Verein": "Vasco da Gama Rio de Janeiro",
+    "MCO": "A-CAP",
+    "Marktwert": "107,40 Mio. €",
+    "Land": "Brasilien",
+    "Liga": "Campeonato Brasileiro Série A",
+    "Koordinaten": "22° 53′ 27,3″ S , 43° 13′ 41,7″ W",
+    "badge": "./assets/Logos/VascodaGamaRiodeJaneiro.png"
+  },
+  {
+    "Verein": "Red Star FC",
+    "MCO": "A-CAP",
+    "Marktwert": "17,85 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 2",
+    "Koordinaten": "48° 54′ 21″ N , 2° 20′ 27″ O",
+    "badge": "./assets/Logos/RedStarFC.png"
+  },
+  {
+    "Verein": "Standard Lüttich",
+    "MCO": "A-CAP",
+    "Marktwert": "46,10 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Jupiler Pro League",
+    "Koordinaten": "50° 36′ 35,7″ N , 5° 32′ 36″ O",
+    "badge": "./assets/Logos/StandardLüttich.png"
+  },
+  {
+    "Verein": "FC Barnsley",
+    "MCO": "Pacific Media Group",
+    "Marktwert": "6,73 Mio. €",
+    "Land": "England",
+    "Liga": "League One",
+    "Koordinaten": "53° 33′ 8″ N , 1° 28′ 3″ W ",
+    "badge": "./assets/Logos/FCBarnsley.png"
+  },
+  {
+    "Verein": "FC Thun",
+    "MCO": "Pacific Media Group",
+    "Marktwert": "22,43 Mio. €",
+    "Land": "Schweiz",
+    "Liga": "Super League",
+    "Koordinaten": "46° 44′ 41″ N , 7° 36′ 24″ O",
+    "badge": "./assets/Logos/FCThun.png"
+  },
+  {
+    "Verein": "AS Nancy-Lorraine",
+    "MCO": "Pacific Media Group",
+    "Marktwert": "13,88 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 2",
+    "Koordinaten": "48° 41′ 43″ N , 6° 12′ 38″ O ",
+    "badge": "./assets/Logos/ASNancy-Lorraine.png"
+  },
+  {
+    "Verein": "Esbjerg fB",
+    "MCO": "Pacific Media Group",
+    "Marktwert": "6,98 Mio. €",
+    "Land": "Dänemark",
+    "Liga": "1. Division",
+    "Koordinaten": "55° 28′ 55″ N , 8° 26′ 22″ O ",
+    "badge": "./assets/Logos/EsbjergfB.png"
+  },
+  {
+    "Verein": "FC Den Bosch",
+    "MCO": "Pacific Media Group",
+    "Marktwert": "6,53 Mio. €",
+    "Land": "Niederlande",
+    "Liga": "Keuken Kampioen Divisie",
+    "Koordinaten": "51° 42′ 6″ N , 5° 19′ 47,4″ O",
+    "badge": "./assets/Logos/FCDenBosch.png"
+  },
+  {
+    "Verein": "Botafogo Rio de Janeiro",
+    "MCO": "Eagle Football Holdings",
+    "Marktwert": "125,35 Mio. €",
+    "Land": "Brasilien",
+    "Liga": "Campeonato Brasileiro Série A",
+    "Koordinaten": "22° 53′ 35,8″ S , 43° 17′ 32,3″ W",
+    "badge": "./assets/Logos/BotafogoRiodeJaneiro.png"
+  },
+  {
+    "Verein": "Olympique Lyon",
+    "MCO": "Eagle Football Holdings",
+    "Marktwert": "299,20 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "45° 45′ 55,9″ N , 4° 58′ 48,3″ O",
+    "badge": "./assets/Logos/OlympiqueLyon.png"
+  },
+  {
+    "Verein": "RWDM Brussels",
+    "MCO": "Eagle Football Holdings",
+    "Marktwert": "9,75 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "50° 51′ 18,2″ N , 4° 18′ 38,2″ O ",
+    "badge": "./assets/Logos/RWDMBrussels.png"
+  },
+  {
+    "Verein": "FC Florida",
+    "MCO": "Eagle Football Holdings",
+    "Marktwert": "",
+    "Land": "USA",
+    "Liga": "",
+    "Koordinaten": "29° 38′ 59,7″ N , 82° 20′ 55,1″ W",
+    "badge": "./assets/Logos/FCFlorida.png"
+  },
+  {
+    "Verein": "Crystal Palace",
+    "MCO": "Eagle Football Holdings",
+    "Marktwert": "559,50 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "51° 23′ 53,8″ N , 0° 5′ 7,6″W",
+    "badge": "./assets/Logos/CrystalPalace.png"
+  },
+  {
+    "Verein": "Newcastle United",
+    "MCO": "Public Investment Fond",
+    "Marktwert": "712,65 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "54° 58′ 32″ N , 1° 37′ 17,9″ W",
+    "badge": "./assets/Logos/NewcastleUnited.png"
+  },
+  {
+    "Verein": "Al-Nassr FC",
+    "MCO": "Public Investment Fond",
+    "Marktwert": "135,40 Mio. €",
+    "Land": "Saudi-Arabien",
+    "Liga": "Saudi Pro League",
+    "Koordinaten": "24° 43′ 45,5″ N , 46° 37′ 25,3″ O ",
+    "badge": "./assets/Logos/Al-NassrFC.png"
+  },
+  {
+    "Verein": "Al-Ittihad Club",
+    "MCO": "Public Investment Fond",
+    "Marktwert": "162,60 Mio. €",
+    "Land": "Saudi-Arabien",
+    "Liga": "Saudi Pro League",
+    "Koordinaten": "25° 15′ 6,8″ N , 51° 32′ 7,3″ O ",
+    "badge": "./assets/Logos/Al-IttihadClub.png"
+  },
+  {
+    "Verein": "Al-Ahli SFC",
+    "MCO": "Public Investment Fond",
+    "Marktwert": "173,83 Mio. €",
+    "Land": "Saudi-Arabien",
+    "Liga": "Saudi Pro League",
+    "Koordinaten": "25° 15′ 6,8″ N , 51° 32′ 7,3″ O ",
+    "badge": "./assets/Logos/Al-AhliSFC.png"
+  },
+  {
+    "Verein": "Al-Hilal SFC",
+    "MCO": "Public Investment Fond",
+    "Marktwert": "208,40 Mio. €",
+    "Land": "Saudi-Arabien",
+    "Liga": "Saudi Pro League",
+    "Koordinaten": "24° 46′ 41,4″ N , 46° 36′ 19,1″ O",
+    "badge": "./assets/Logos/Al-HilalSFC.png"
+  },
+  {
+    "Verein": "CF Pachuca",
+    "MCO": "Pachuca Group",
+    "Marktwert": "50,60 Mio. €",
+    "Land": "Mexiko",
+    "Liga": "Liga MX Apertura",
+    "Koordinaten": "20° 6′ 18,8″ N , 98° 45′ 22,1″ W ",
+    "badge": "./assets/Logos/CFPachuca.png"
+  },
+  {
+    "Verein": "Club Leon",
+    "MCO": "Pachuca Group",
+    "Marktwert": "40,93 Mio. €",
+    "Land": "Mexiko",
+    "Liga": "Liga MX Apertura",
+    "Koordinaten": "21° 6′ 56″ N , 101° 39′ 27,5″ W",
+    "badge": "./assets/Logos/ClubLeon.png"
+  },
+  {
+    "Verein": "Real Oviedo",
+    "MCO": "Pachuca Group",
+    "Marktwert": "63,90 Mio. €",
+    "Land": "Spanien",
+    "Liga": "La Liga",
+    "Koordinaten": "43° 21′ 38,8″ N , 5° 52′ 12,9″ W",
+    "badge": "./assets/Logos/RealOviedo.png"
+  },
+  {
+    "Verein": "CD Everton",
+    "MCO": "Pachuca Group",
+    "Marktwert": "9,55 Mio. €",
+    "Land": "Chile",
+    "Liga": "Liga de Primera",
+    "Koordinaten": "33° 0′ 52″ S , 71° 32′ 7″ W ",
+    "badge": "./assets/Logos/CDEverton.png"
+  },
+  {
+    "Verein": "AFC Bournemouth",
+    "MCO": "Black Knight Group",
+    "Marktwert": "507,10 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "50° 44′ 6,8″ N , 1° 50′ 17,8″ W ",
+    "badge": "./assets/Logos/AFCBournemouth.png"
+  },
+  {
+    "Verein": "FC Lorient",
+    "MCO": "Black Knight Group",
+    "Marktwert": "124,75 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "47° 44′ 55,5″ N , 3° 22′ 9,7″ W",
+    "badge": "./assets/Logos/FCLorient.png"
+  },
+  {
+    "Verein": "Hibernian FC",
+    "MCO": "Black Knight Group",
+    "Marktwert": "18,50 Mio. €",
+    "Land": "Schottland",
+    "Liga": "Scottish Premiership",
+    "Koordinaten": "55° 57′ 42,4″ N , 3° 9′ 55″ W",
+    "badge": "./assets/Logos/HibernianFC.png"
+  },
+  {
+    "Verein": "Moreirense FC",
+    "MCO": "Black Knight Group",
+    "Marktwert": "34,50 Mio. €",
+    "Land": "Portugal",
+    "Liga": "Liga Portugal",
+    "Koordinaten": "41° 22′ 41,1″ N , 8° 21′ 17,1″ W",
+    "badge": "./assets/Logos/MoreirenseFC.png"
+  },
+  {
+    "Verein": "Auckland FC",
+    "MCO": "Black Knight Group",
+    "Marktwert": "13,88 Mio. €",
+    "Land": "Neuseeland",
+    "Liga": "A-League",
+    "Koordinaten": "36° 55′ 5,9″ S , 174° 48′ 44,8″ O",
+    "badge": "./assets/Logos/AucklandFC.png"
+  },
+  {
+    "Verein": "Beerschot VA",
+    "MCO": "United World Group",
+    "Marktwert": "10,88 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "51° 11′ 6,2″ N, 4° 22′ 55,3″ O",
+    "badge": "./assets/Logos/BeerschotVA.png"
+  },
+  {
+    "Verein": "Kerala United FC",
+    "MCO": "United World Group",
+    "Marktwert": "",
+    "Land": "Indien",
+    "Liga": "I-League 3",
+    "Koordinaten": "11° 06′ 01.007″ N, 76° 09′ 22.253″ E",
+    "badge": "./assets/Logos/KeralaUnitedFC.png"
+  },
+  {
+    "Verein": "LB Châteauroux",
+    "MCO": "United World Group",
+    "Marktwert": "4,03 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Championnat National ",
+    "Koordinaten": "46° 48′ 7″ N , 1° 43′ 18″ O",
+    "badge": "./assets/Logos/LBChateauroux.png"
+  },
+  {
+    "Verein": "Al-Hilal United Football Club",
+    "MCO": "United World Group",
+    "Marktwert": "",
+    "Land": "Vereinigte Arabische Emirate",
+    "Liga": "UAE Second Division League",
+    "Koordinaten": "24° 59' 25.19\"\" N, 55° 27' 35.39\"\" E",
+    "badge": "./assets/Logos/Al-HilalUnitedFootballClub.png"
+  },
+  {
+    "Verein": "Aston Villa",
+    "MCO": "V-Sports",
+    "Marktwert": "554,50 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "52° 30′ 32,8″ N , 1° 53′ 5,3″ W",
+    "badge": "./assets/Logos/AstonVilla.png"
+  },
+  {
+    "Verein": "Vitória Guimarães SC",
+    "MCO": "V-Sports",
+    "Marktwert": "59,70 Mio. €",
+    "Land": "Portugal",
+    "Liga": "Liga Portugal",
+    "Koordinaten": "41° 26′ 45,2″ N , 8° 18′ 3,6″ W",
+    "badge": "./assets/Logos/VitoriaGuimaraesSC.png"
+  },
+  {
+    "Verein": "Real Unión Club ",
+    "MCO": "V-Sports",
+    "Marktwert": "3,00 Mio. €",
+    "Land": "Spanien",
+    "Liga": "Segunda Federación - Grupo II",
+    "Koordinaten": "43° 20′ 43,7″ N , 1° 47′ 9,1″ W",
+    "badge": "./assets/Logos/RealUnionClub.png"
+  },
+  {
+    "Verein": "Manchester United",
+    "MCO": "INEOS",
+    "Marktwert": "748,40 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "53° 27′ 47″ N , 2° 17′ 28,8″ W",
+    "badge": "./assets/Logos/ManchesterUnited.png"
+  },
+  {
+    "Verein": "OGC Nizza",
+    "MCO": "INEOS",
+    "Marktwert": "175,40 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "43° 42′ 18,3″ N , 7° 11′ 33,5″ O",
+    "badge": "./assets/Logos/OGCNizza.png"
+  },
+  {
+    "Verein": "FC Lausanne-Sport",
+    "MCO": "INEOS",
+    "Marktwert": "34,08 Mio. €",
+    "Land": "Schweiz",
+    "Liga": "Super League",
+    "Koordinaten": "46° 32′ 36,8″ N , 6° 37′ 18,8″ O",
+    "badge": "./assets/Logos/FCLausanne-Sport.png"
+  },
+  {
+    "Verein": "Brighton & Hove Albion",
+    "MCO": "Tony Bloom",
+    "Marktwert": "552,00 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "50° 51′ 42,6″ N , 0° 4′ 59,8″ W",
+    "badge": "./assets/Logos/BrightonHoveAlbion.png"
+  },
+  {
+    "Verein": "Union Saint-Gilloise",
+    "MCO": "Tony Bloom",
+    "Marktwert": "122,50 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "50° 49′ 4″ N , 4° 19′ 45,6″ O",
+    "badge": "./assets/Logos/UnionSaint-Gilloise.png"
+  },
+  {
+    "Verein": "Heart of Midlothian FC",
+    "MCO": "Tony Bloom",
+    "Marktwert": "31,25 Mio. €",
+    "Land": "Schottland",
+    "Liga": "Scottish Premiership",
+    "Koordinaten": "55° 56′ 20,3″ N , 3° 13′ 56,8″ W",
+    "badge": "./assets/Logos/HeartofMidlothianFC.png"
+  },
+  {
+    "Verein": "Nottingham Forest",
+    "MCO": "Evangelos Marinakis",
+    "Marktwert": "568,00 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "52° 56′ 23,3″ N , 1° 7′ 58,1″ W ",
+    "badge": "./assets/Logos/NottinghamForest.png"
+  },
+  {
+    "Verein": "Olympiakos Piräus",
+    "MCO": "Evangelos Marinakis",
+    "Marktwert": "137,75 Mio. €",
+    "Land": "Griechenland",
+    "Liga": "Super League 1",
+    "Koordinaten": "37° 56′ 47,1″ N , 23° 39′ 51,8″ O",
+    "badge": "./assets/Logos/OlympiakosPiräus.png"
+  },
+  {
+    "Verein": "Rio Ave FC",
+    "MCO": "Evangelos Marinakis",
+    "Marktwert": "36,70 Mio. €",
+    "Land": "Portugal",
+    "Liga": "Liga Portugal",
+    "Koordinaten": "41° 21′ 45,8″ N , 8° 44′ 24,5″ W",
+    "badge": "./assets/Logos/RioAveFC.png"
+  },
+  {
+    "Verein": "Udinese Calcio",
+    "MCO": "Pozzo Family",
+    "Marktwert": "175,70 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie A",
+    "Koordinaten": "46° 4′ 53,8″ N , 13° 11′ 59,8″ O",
+    "badge": "./assets/Logos/UdineseCalcio.png"
+  },
+  {
+    "Verein": "FC Watford",
+    "MCO": "Pozzo Family",
+    "Marktwert": "89,80 Mio. €",
+    "Land": "England",
+    "Liga": "Championship",
+    "Koordinaten": "51° 38′ 59″ N , 0° 24′ 4″ W",
+    "badge": "./assets/Logos/FCWatford.png"
+  },
+  {
+    "Verein": "FC Chelsea",
+    "MCO": "Blue Co",
+    "Marktwert": "1,16 Mrd. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "51° 28′ 54″ N , 0° 11′ 27″ W",
+    "badge": "./assets/Logos/FCChelsea.png"
+  },
+  {
+    "Verein": "RC Straßburg Alsace",
+    "MCO": "Blue Co",
+    "Marktwert": "384,80 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "48° 33′ 36,1″ N , 7° 45′ 18,4″ O",
+    "badge": "./assets/Logos/RCStraburgAlsace.png"
+  },
+  {
+    "Verein": "Los Angeles FC",
+    "MCO": "LAFC Group",
+    "Marktwert": "66,18 Mio. €",
+    "Land": "USA",
+    "Liga": "Major League Soccer",
+    "Koordinaten": "34° 0′ 46″ N , 118° 17′ 4,7″ W",
+    "badge": "./assets/Logos/LosAngelesFC.png"
+  },
+  {
+    "Verein": "Grasshopper Club Zürich",
+    "MCO": "LAFC Group",
+    "Marktwert": "21,40 Mio. €",
+    "Land": "Schweiz",
+    "Liga": "Super League",
+    "Koordinaten": "47° 22′ 58″ N, 8° 30′ 15″ E",
+    "badge": "./assets/Logos/GrasshopperClubZürich.png"
+  },
+  {
+    "Verein": "FC Arsenal",
+    "MCO": "Kroenke Sports",
+    "Marktwert": "1,23 Mrd. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "51° 33′ 18,3″ N , 0° 6′ 30,3″ W",
+    "badge": "./assets/Logos/FCArsenal.png"
+  },
+  {
+    "Verein": "Colorado Rapids",
+    "MCO": "Kroenke Sports",
+    "Marktwert": "44,95 Mio. €",
+    "Land": "USA",
+    "Liga": "Major League Soccer",
+    "Koordinaten": "39° 48′ 20,4″ N , 104° 53′ 30,5″ W",
+    "badge": "./assets/Logos/ColoradoRapids.png"
+  },
+  {
+    "Verein": "FC Paris Saint-Germain",
+    "MCO": "Qatari Sports Investment",
+    "Marktwert": "1,37 Mrd. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "48° 50′ 29,3″ N , 2° 15′ 10,8″ O",
+    "badge": "./assets/Logos/FCParisSaint-Germain.png"
+  },
+  {
+    "Verein": "SC Braga",
+    "MCO": "Qatari Sports Investment",
+    "Marktwert": "182,30 Mio. €",
+    "Land": "Portugal",
+    "Liga": "Liga Portugal",
+    "Koordinaten": "41° 33′ 45,1″ N , 8° 25′ 47,6″ W",
+    "badge": "./assets/Logos/SCBraga.png"
+  },
+  {
+    "Verein": "AS Monaco",
+    "MCO": "Dmitry Rybolovlev",
+    "Marktwert": "395,25 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "43° 43′ 40″ N , 7° 24′ 56″ O",
+    "badge": "./assets/Logos/ASMonaco.png"
+  },
+  {
+    "Verein": "Cercle Brügge",
+    "MCO": "Dmitry Rybolovlev",
+    "Marktwert": "40,15 Mio. €",
+    "Land": "Belgien",
+    "Liga": "Challenger Pro League",
+    "Koordinaten": "51° 11′ 35,8″ N , 3° 10′ 52,7″ O",
+    "badge": "./assets/Logos/CercleBrügge.png"
+  },
+  {
+    "Verein": "AC Mailand",
+    "MCO": "RedBird Capital",
+    "Marktwert": "429,20 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie A",
+    "Koordinaten": "45° 28′ 41,1″ N , 9° 7′ 26,1″ O",
+    "badge": "./assets/Logos/ACMailand.png"
+  },
+  {
+    "Verein": "FC Toulouse",
+    "MCO": "RedBird Capital",
+    "Marktwert": "163,30 Mio. €",
+    "Land": "Frankreich",
+    "Liga": "Ligue 1",
+    "Koordinaten": "43°34′59″ N,  1°26′3″E",
+    "badge": "./assets/Logos/FCToulouse.png"
+  },
+  {
+    "Verein": "Leeds United",
+    "MCO": "49ers Enterprises",
+    "Marktwert": "346,03 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "53° 46′ 40″ N , 1° 34′ 19″ W",
+    "badge": "./assets/Logos/LeedsUnited.png"
+  },
+  {
+    "Verein": "Glasgow Rangers",
+    "MCO": "49ers Enterprises",
+    "Marktwert": "126,95 Mio. €",
+    "Land": "Schottland",
+    "Liga": "Scottish Premiership",
+    "Koordinaten": "55° 51′ 11,7″ N , 4° 18′ 33,6″ W",
+    "badge": "./assets/Logos/GlasgowRangers.png"
+  },
+  {
+    "Verein": "SSC Neapel",
+    "MCO": "Aurelio De Laurentiis",
+    "Marktwert": "396,60 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie A",
+    "Koordinaten": "40° 49′ 40,7″ N, 14° 11′ 34,6″ O",
+    "badge": "./assets/Logos/SSCNeapel.png"
+  },
+  {
+    "Verein": "SSC Bari",
+    "MCO": "Aurelio De Laurentiis",
+    "Marktwert": "27,30 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie B",
+    "Koordinaten": "41° 5′ 5,1″ N , 16° 50′ 24,3″ O",
+    "badge": "./assets/Logos/SSCBari.png"
+  },
+  {
+    "Verein": "AS Rom",
+    "MCO": "Friedken Group",
+    "Marktwert": "465,90 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie A",
+    "Koordinaten": "41° 56′ 2″ N , 12° 27′ 17″ O",
+    "badge": "./assets/Logos/ASRom.png"
+  },
+  {
+    "Verein": "FC Everton",
+    "MCO": "Friedken Group",
+    "Marktwert": "450,80 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "53° 25′ 30,4″ N, 3° 0′ 10,1″ W",
+    "badge": "./assets/Logos/FCEverton.png"
+  },
+  {
+    "Verein": "FC Brentford",
+    "MCO": "Matthew Benham",
+    "Marktwert": "484,88 Mio. €",
+    "Land": "England",
+    "Liga": "Premier League",
+    "Koordinaten": "51° 29′ 27″ N , 0° 17′ 19,3″ W",
+    "badge": "./assets/Logos/FCBrentford.png"
+  },
+  {
+    "Verein": "FC Midtjylland",
+    "MCO": "Matthew Benham",
+    "Marktwert": "108,35 Mio. €",
+    "Land": "Dänemark",
+    "Liga": "Superliga",
+    "Koordinaten": "56° 7′ 0,9″ N , 8° 57′ 6,4″ O ",
+    "badge": "./assets/Logos/FCMidtjylland.png"
+  },
+  {
+    "Verein": "FC Bologna",
+    "MCO": "Saputo",
+    "Marktwert": "261,70 Mio. €",
+    "Land": "Italien",
+    "Liga": "Serie A",
+    "Koordinaten": "44° 29′ 32,3″ N , 11° 18′ 36,1″ O",
+    "badge": "./assets/Logos/FCBologna.png"
+  },
+  {
+    "Verein": "CF Montréal",
+    "MCO": "Saputo",
+    "Marktwert": "34,85 Mio. €",
+    "Land": "Kanada",
+    "Liga": "Major League Soccer",
+    "Koordinaten": "45° 33′ 47,1″ N , 73° 33′ 9,5″ W",
+    "badge": "./assets/Logos/CFMontreal.png"
+  }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/display-mco-structures/scripts/updateBadges.cjs">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/display-mco-structures/scripts/updateBadges.cjs" />
+              <option name="updatedContent" value="const fs = require('fs');&#10;const path = require('path');&#10;&#10;// Usage: node updateBadges.cjs /absolute/path/to/Clubs.json&#10;const clubsPathArg = process.argv[2];&#10;const clubsPath = clubsPathArg || path.resolve(__dirname, '..', 'public', 'assets', 'Clubs.json');&#10;&#10;if (!fs.existsSync(clubsPath)) {&#10;  console.error('Clubs.json not found at:', clubsPath);&#10;  process.exit(2);&#10;}&#10;&#10;const backupPath = clubsPath + '.bak';&#10;try {&#10;  fs.copyFileSync(clubsPath, backupPath, fs.constants.COPYFILE_EXCL);&#10;  console.log('Backup created at', backupPath);&#10;} catch (err) {&#10;  if (err.code === 'EEXIST') {&#10;    console.log('Backup already exists at', backupPath);&#10;  } else {&#10;    console.error('Failed to create backup:', err);&#10;    process.exit(3);&#10;  }&#10;}&#10;&#10;let raw = fs.readFileSync(clubsPath, 'utf8');&#10;let data;&#10;try {&#10;  data = JSON.parse(raw);&#10;} catch (err) {&#10;  console.error('Failed to parse JSON:', err);&#10;  process.exit(4);&#10;}&#10;&#10;let updated = 0;&#10;let skippedEmpty = 0;&#10;for (let obj of data) {&#10;  const verein = (obj.Verein || '').toString().trim();&#10;  if (!verein) {&#10;    obj.badge = '';&#10;    skippedEmpty++;&#10;    continue;&#10;  }&#10;  // Remove spaces only (all whitespace sequences) and also remove non-filename chars&#10;  const safe = verein.replace(/\s+/g, '').replace(/[^a-zA-Z0-9\-_.]/g, '');&#10;  const filename = safe + '.png';&#10;  obj.badge = './assets/Logos/' + filename;&#10;  updated++;&#10;}&#10;&#10;fs.writeFileSync(clubsPath, JSON.stringify(data, null, 2) + '\n', 'utf8');&#10;console.log(`Done. Updated ${updated} entries. Set empty badge for ${skippedEmpty} entries with empty &quot;Verein&quot;.`);&#10;console.log('Original backup at', backupPath);&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
