@@ -163,7 +163,7 @@
   },
   {
     "Verein": "Leeds United",
-    "MCO": "Red Bull Soccer",
+    "MCO": "Red Bull Soccer, 49ers Enterprises",
     "Marktwert": "346,03 Mio. €",
     "Land": "England",
     "Liga": "Premier League",
@@ -181,7 +181,7 @@
   },
   {
     "Verein": "Crystal Palace",
-    "MCO": "Global Football Holdings",
+    "MCO": "Global Football Holdings, Eagle Football Holdings",
     "Marktwert": "559,50 Mio. €",
     "Land": "England",
     "Liga": "Premier League",
@@ -376,15 +376,6 @@
     "Liga": "",
     "Koordinaten": "29° 38′ 59,7″ N , 82° 20′ 55,1″ W",
     "badge": "./assets/Logos/FCFlorida.png"
-  },
-  {
-    "Verein": "Crystal Palace",
-    "MCO": "Eagle Football Holdings",
-    "Marktwert": "559,50 Mio. €",
-    "Land": "England",
-    "Liga": "Premier League",
-    "Koordinaten": "51° 23′ 53,8″ N , 0° 5′ 7,6″W",
-    "badge": "./assets/Logos/CrystalPalace.png"
   },
   {
     "Verein": "Newcastle United",
@@ -781,15 +772,6 @@
     "Liga": "Ligue 1",
     "Koordinaten": "43°34′59″ N,  1°26′3″E",
     "badge": "./assets/Logos/FCToulouse.png"
-  },
-  {
-    "Verein": "Leeds United",
-    "MCO": "49ers Enterprises",
-    "Marktwert": "346,03 Mio. €",
-    "Land": "England",
-    "Liga": "Premier League",
-    "Koordinaten": "53° 46′ 40″ N , 1° 34′ 19″ W",
-    "badge": "./assets/Logos/LeedsUnited.png"
   },
   {
     "Verein": "Glasgow Rangers",
