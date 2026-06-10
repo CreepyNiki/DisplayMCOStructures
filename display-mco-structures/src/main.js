@@ -93,7 +93,7 @@ function drawGraph(data) {
                 .classed("hidden", false)
                 .html(`
                     <button class="popup-close">×</button>
-                    <h1 class="MCOHeader">${d.MCO}</h1>
+                    <h1 class="popupHeader">${d.MCO}</h1>
                     ${d.Land ? `<p class="attr"><strong>Land:</strong> ${d.Land}</p>` : ""}
                     ${d.Besitzer ? `<p class="attr"><strong>Besitzer:</strong> ${d.Besitzer}</p>` : ""}
                     ${d.Kapital ? `<p class="attr"><strong>Kapital:</strong> ${d.Kapital}</p>` : ""}
@@ -103,12 +103,16 @@ function drawGraph(data) {
                 .classed("hidden", false)
                 .html(`
                     <button class="popup-close">×</button>
-                    <h1 class="clubHeader">${d.Verein}</h1>
-                    <img class="imagePopup" src="${d.badge}"></img>
-                    ${d.MCO ? `<p class="attr"><strong>MCO:</strong> ${d.MCO}</p>` : ""}
-                    ${d.Land ? `<p class="attr"><strong>Land:</strong> ${d.Land}</p>` : ""}
-                    ${d.Liga ? `<p class="attr"><strong>Liga:</strong> ${d.Liga}</p>` : ""}
-                    ${d.Marktwert ? `<p class="attr"><strong>Marktwert:</strong> ${d.Marktwert}</p>` : ""}
+                    <h1 class="popupHeader">${d.Verein}</h1>
+                    <div class="club-content">
+                        <div class="attributes">
+                            ${d.MCO ? `<p class="attr"><strong>MCO:</strong> ${d.MCO}</p>` : ""}
+                            ${d.Land ? `<p class="attr"><strong>Land:</strong> ${d.Land}</p>` : ""}
+                            ${d.Liga ? `<p class="attr"><strong>Liga:</strong> ${d.Liga}</p>` : ""}
+                            ${d.Marktwert ? `<p class="attr"><strong>Marktwert:</strong> ${d.Marktwert}</p>` : ""}
+                        </div>
+                        <img class="imagePopup" src="${d.badge}"></img>
+                    </div>
                 `);
         }
 
@@ -120,7 +124,7 @@ function drawGraph(data) {
         .selectAll("line")
         .data(data.links)
         .join("line")
-        .style("stroke", "#aaa");
+        .style("stroke", "black");
 
     const mcoNodes = data.nodes.filter(d => d.type === "mco");
     const clubNodes = data.nodes.filter(d => d.type === "club");
