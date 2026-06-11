@@ -1,6 +1,12 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background: #B8B6B6;
 }
 
@@ -9,6 +15,7 @@ h2, p {
 }
 
 .headerWrapper {
+    flex: 0 0 auto;
     width: 100%;
 }
 
@@ -46,6 +53,12 @@ ul li a:hover {
 
 li.active a {
     background-color: #024302;
+}
+
+#map {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
 }
 
 .info-popup {
