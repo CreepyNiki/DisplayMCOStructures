@@ -1,5 +1,6 @@
 
 import LatLon from 'geodesy/latlon-ellipsoidal.js';
+import * as d3 from "d3";
 
 let map = L.map('map').setView([41.505, 12.49], 3);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -11,19 +12,30 @@ Promise.all([
     fetch(new URL("/assets/MCOs.json", import.meta.url)).then(r => r.json()),
     fetch(new URL("/assets/Clubs.json", import.meta.url)).then(r => r.json())
 ]).then(([mcos, clubs]) => {
+    const mcoColorMap = new Map(mcos.map(mco => [mco.MCO, mco.color]));
 
     for (const club of clubs) {
-
-        let badgeIcon = L.icon({
+        const badgeIcon = L.icon({
             iconUrl: club.badge,
-            iconSize: [64, 64, 64],
+            iconSize: [64, 64],
+            iconAnchor: [32, 32]
         });
 
         const coord = normalizeCoord(club.Koordinaten);
         const point = LatLon.parse(coord);
+        const color = mcoColorMap.get(club.MCO) ?? '#3388ff';
+
+        L.circleMarker([point.lat, point.lon], {
+            radius: 45,
+            color: color,
+            weight: 1,
+            fillColor: color,
+            fillOpacity: 0.7
+        }).addTo(map).on('click', () => showPopup(club))
+
         L.marker([point.lat, point.lon], {
-            icon: badgeIcon,
-        }).addTo(map);
+            icon: badgeIcon
+        }).addTo(map).on('click', () => showPopup(club))
     }
 });
 
@@ -37,33 +49,24 @@ function normalizeCoord(raw) {
 }
 
 function showPopup(d) {
-    if (d.type === "mco") {
-        popup
-            .classed("hidden", false)
-            .html(`
-                <button class="popup-close">×</button>
-                <h1 class="header">${d.MCO}</h1>
-                ${d.Land ? `<p class="attr"><strong>Land:</strong> ${d.Land}</p>` : ""}
-                ${d.Besitzer ? `<p class="attr"><strong>Besitzer:</strong> ${d.Besitzer}</p>` : ""}
-                ${d.Kapital ? `<p class="attr"><strong>Kapital:</strong> ${d.Kapital}</p>` : ""}
-            `);
-    } else if (d.type === "club") {
-        popup
-            .classed("hidden", false)
-            .html(`
-                <button class="popup-close">×</button>
-                <h1 class="header">${d.Verein}</h1>
-                <div class="club-content">
-                    <div class="attributes">
-                        ${d.MCO ? `<p class="attr"><strong>MCO:</strong> ${d.MCO}</p>` : ""}
-                        ${d.Land ? `<p class="attr"><strong>Land:</strong> ${d.Land}</p>` : ""}
-                        ${d.Liga ? `<p class="attr"><strong>Liga:</strong> ${d.Liga}</p>` : ""}
-                        ${d.Marktwert ? `<p class="attr"><strong>Marktwert:</strong> ${d.Marktwert}</p>` : ""}
-                    </div>
-                    <img class="imagePopup" src="${d.badge}"></img>
+    const popup = d3.select(".info-popup");
+    popup
+        .classed("hidden", false)
+        .html(`
+            <button class="popup-close">×</button>
+            <h1 class="header">${d.Verein}</h1>
+            <div class="club-content">
+                <div class="attributes">
+                    ${d.MCO ? `<p class="attr"><strong>MCO:</strong> ${d.MCO}</p>` : ""}
+                    ${d.Land ? `<p class="attr"><strong>Land:</strong> ${d.Land}</p>` : ""}
+                    ${d.Liga ? `<p class="attr"><strong>Liga:</strong> ${d.Liga}</p>` : ""}
+                    ${d.Marktwert ? `<p class="attr"><strong>Marktwert:</strong> ${d.Marktwert}</p>` : ""}
                 </div>
-            `);
-    }
+                <img class="imagePopup" src="${d.badge}"></img>
+            </div>
+        `);
+    popup.select(".popup-close")
+        .on("click", () => popup.classed("hidden", true));
 }
 
 
