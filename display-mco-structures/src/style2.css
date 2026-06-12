@@ -61,6 +61,11 @@ li.active a {
     width: 100%;
 }
 
+.split-circle-marker {
+    background: transparent;
+    border: none;
+}
+
 .legend {
     position: fixed;
     top: 500px;

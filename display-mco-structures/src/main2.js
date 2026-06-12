@@ -16,17 +16,14 @@ Promise.all([
     const mcoColorMap = new Map(mcos.map(mco => [mco.MCO, mco.color]));
     const mcoLayers = new Map();
 
-    // Layer-Gruppen pro MCO erstellen
     for (const mco of mcos) {
         const group = L.layerGroup().addTo(map);
         mcoLayers.set(mco.MCO, group);
     }
 
-    // Vereine zeichnen
     for (const club of clubs) {
         const coord = normalizeCoord(club.Koordinaten);
         const point = LatLon.parse(coord);
-        const color = mcoColorMap.get(club.MCO) ?? "#3388ff";
 
         const badgeIcon = L.icon({
             iconUrl: club.badge,
@@ -34,22 +31,20 @@ Promise.all([
             iconAnchor: [32, 32]
         });
 
-        const circle = L.circleMarker([point.lat, point.lon], {
-            radius: 45,
-            color,
-            weight: 1,
-            fillColor: color,
-            fillOpacity: 0.7
-        }).on("click", () => showPopup(map, club, point.lat, point.lon));
+        const circle = createSplitCircleMarker(point.lat, point.lon, club.MCO, mcoColorMap);
+        circle.on("click", () => showPopup(map, club, point.lat, point.lon));
 
         const marker = L.marker([point.lat, point.lon], {
             icon: badgeIcon
         }).on("click", () => showPopup(map, club, point.lat, point.lon));
 
-        const group = mcoLayers.get(club.MCO);
-        if (group) {
-            group.addLayer(circle);
-            group.addLayer(marker);
+        const mcos = club.MCO.split(',').map(m => m.trim());
+        for (const mco of mcos) {
+            const group = mcoLayers.get(mco);
+            if (group) {
+                group.addLayer(circle);
+                group.addLayer(marker);
+            }
         }
     }
 
@@ -89,6 +84,45 @@ function showPopup(map, d, lat, lon) {
         `);
     popup.select(".popup-close")
         .on("click", () => popup.classed("hidden", true));
+}
+
+function createSplitCircleMarker(lat, lon, mcos, mcoColorMap) {
+    const colors = mcos
+        .split(',')
+        .map(m => mcoColorMap.get(m.trim()) ?? '#3388ff');
+
+    if (colors.length === 1) {
+        return L.circleMarker([lat, lon], {
+            radius: 45,
+            color: colors[0],
+            weight: 1,
+            fillColor: colors[0],
+            fillOpacity: 0.7
+        });
+    }
+
+    const svg = `
+        <svg width="92" height="92" viewBox="0 0 92 92">
+            <path d="M46 1 A45 45 0 0 0 46 91 L46 1"
+                  fill="${colors[0]}"
+                  stroke="black"
+                  stroke-width="1"/>
+            <path d="M46 1 A45 45 0 0 1 46 91 L46 1"
+                  fill="${colors[1]}"
+                  stroke="black"
+                  stroke-width="1"/>
+        </svg>
+    `;
+
+    return L.marker([lat, lon], {
+        icon: L.divIcon({
+            html: svg,
+            className: "split-circle-marker",
+            iconSize: [92, 92],
+            iconAnchor: [46, 46]
+        }),
+        zIndexOffset: -1000
+    });
 }
 
 
