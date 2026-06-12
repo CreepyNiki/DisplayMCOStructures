@@ -61,10 +61,68 @@ li.active a {
     width: 100%;
 }
 
+.legend {
+    position: fixed;
+    top: 500px;
+    left: 20px;
+    width: 250px;
+    max-height: 37vh;
+    overflow-y: auto;
+    background: #75959d;
+    border-radius: 12px;
+    padding: 16px;
+    z-index: 1000;
+    color: white;
+}
+
+.legend h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.legend-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.legend-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.legend-item input[type="checkbox"] {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.legend-item span:last-child {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
 .info-popup {
     position: fixed;
     color: white;
-    top: 150px;
+    top: 170px;
     left: 20px;
     width: 320px;
     overflow-y: auto;
